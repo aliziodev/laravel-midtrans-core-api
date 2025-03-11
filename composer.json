@@ -1,7 +1,6 @@
 {
     "name": "aliziodev/laravel-midtrans-core-api",
     "description": "Laravel Midtrans Core API Integration",
-    "version": "1.0.0",
     "type": "library",
     "license": "MIT",
     "autoload": {
