@@ -1,0 +1,48 @@
+{
+    "name": "aliziodev/laravel-midtrans-core-api",
+    "description": "Laravel Midtrans Core API Integration",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Aliziodev\\LaravelMidtrans\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alizio",
+            "email": "aliziodev@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^11.0|^12.0",
+        "illuminate/contracts": "^11.0|^12.0",
+        "illuminate/config": "^11.0|^12.0",
+        "illuminate/http": "^11.0|^12.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aliziodev\\LaravelMidtrans\\Providers\\MidtransServiceProvider"
+            ],
+            "aliases": {
+                "Midtrans": "Aliziodev\\LaravelMidtrans\\Facades\\Midtrans"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "funding": [
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/aliziodev"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/aliziodev/laravel-midtrans-core-api/issues",
+        "source": "https://github.com/aliziodev/laravel-midtrans-core-api"
+    }
+}
